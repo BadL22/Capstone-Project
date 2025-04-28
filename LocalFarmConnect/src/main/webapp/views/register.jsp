@@ -3,7 +3,7 @@
 <div class="container">
     <h2>Create an Account</h2>
 
-    <form action="auth" method="post">
+    <form action="<%= request.getContextPath() %>/register" method="post">
         <input type="hidden" name="action" value="register" />
 
         <label>Full Name:</label>
