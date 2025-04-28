@@ -10,8 +10,8 @@
     <header>
         <h1>LocalFarm Connect</h1>
         <nav>
-            <a href="dashboard.jsp">Dashboard</a>
-            <a href="listings.jsp">Listings</a>
-            <a href="listingForm.jsp">New Listing</a>
+            <a href="<%= request.getContextPath() %>/views/dashboard.jsp">Dashboard</a>
+            <a href="<%= request.getContextPath() %>/views/listings.jsp">Listings</a>
+            <a href="<%= request.getContextPath() %>/views/listingForm.jsp">New Listing</a>
         </nav>
     </header>
