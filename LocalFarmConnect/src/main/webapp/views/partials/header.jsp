@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>LocalFarm Connect</title>
-    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
