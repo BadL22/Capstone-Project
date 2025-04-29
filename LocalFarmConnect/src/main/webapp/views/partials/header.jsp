@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>LocalFarm Connect</h1>
+        <h1 style="color: #FAF3E0;">LocalFarm Connect</h1>
         <nav>
             <a href="<%= request.getContextPath() %>/views/dashboard.jsp">Dashboard</a>
             <a href="<%= request.getContextPath() %>/views/listings.jsp">Listings</a>
