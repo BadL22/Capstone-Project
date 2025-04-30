@@ -19,7 +19,7 @@ public class UserDAO {
             stmt.setString(1, user.getName());
             stmt.setString(2, user.getEmail());
             stmt.setString(3, user.getPassword());
-            stmt.setString(4, user.getRole());
+            stmt.setString(4, user.getRole().toLowerCase());
             stmt.setString(5, user.getLocation());
 
             int rowsInserted = stmt.executeUpdate();
