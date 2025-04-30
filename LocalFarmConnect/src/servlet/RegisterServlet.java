@@ -37,9 +37,9 @@ public class RegisterServlet extends HttpServlet {
         boolean success = userDAO.registerUser(user);
 
         if (success) {
-            response.sendRedirect("register-success.jsp"); // Redirect to success page (you can create this JSP later)
+            response.sendRedirect("views/register-success.jsp"); // Redirect to success page (you can create this JSP later)
         } else {
-            response.sendRedirect("register-failure.jsp"); // Redirect to failure page (also create later)
+            response.sendRedirect("views/register-failure.jsp"); 
         }
     }
 }
