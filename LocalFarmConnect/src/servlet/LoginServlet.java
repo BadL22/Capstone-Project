@@ -25,7 +25,7 @@ public class LoginServlet extends HttpServlet {
         if (user != null) {
             HttpSession session = request.getSession();
             session.setAttribute("currentUser", user);
-            response.sendRedirect("views/dashboard.jsp");
+            response.sendRedirect("dashboard"); // **Changed** from views/dashboard.jsp to just dashboard - Route to servlet instead of .jsp
         } else {
             response.sendRedirect("views/login-failure.jsp");
         }
